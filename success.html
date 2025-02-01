@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Contect Me</title>
+    <link rel="icon" type="image/x-icon" href="./images/fav_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6726e36abc.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?famili=Ubuntu&family=Oswald&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+
+</head>
+
+<body>
+        <div class="arrow-box"><i class="fa-solid fa-circle-arrow-up" id="scroll-to-top"  title="Go Top"></i></div>
+        <header>
+            <nav data-aos="fade-down" data-aos-delay="200" data-aos-duration="1200" data-aos-once="true">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fas fa-bars" id="btn"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <img src="./images/nav-logo.png" alt="">
+                <ul>
+                    <li><a href="./" class="icon"><i class="fas fa-home"></i>&nbsp;Home</a></li>
+                    <li><a href="./about.html" class="icon"><i class="fas fa-user"></i>&nbsp;About</a></li>
+                    <!-- <li><a href="#" class="icon"><i class="fas fa-code"></i>&nbsp;Projects</a></li> -->
+                    <li><a href="./educations.html" class="icon"><i class="fa-solid fa-graduation-cap"></i></i>&nbsp;Educations</a></li>
+                    <li><a href="./resume.html" class="icon"><i class="fas fa-file-lines"></i>&nbsp;Resume</a></li>
+                    <li><a href="contact.html" class="icon"><i class="fa-regular fa-id-badge"></i>&nbsp;Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+           <section class="intro">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6  py-5 text-center" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="1500" >
+                    <img src="./images/contact-logo.svg" alt="" class="contact-logo">
+                </div>
+                <div class="col-md-3"></div>
+                <!-- <div class="col-md-6 p-md-5 py-4">
+                    <div class="m-lg-0 m-4" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1500">
+                        <span class="profile">Passionate code artisan crafting digital dreams into reality. Fluent in
+                            Java ,
+                            I transform ideas into seamless user experiences. Let's turn your vision into a
+                            pixel-perfect
+                            masterpiece!</span>
+                    </div>
+                </div> -->
+                </div>
+
+            
+           </section>
+           <section class="contact-form">
+            <div class="customized-title text-center mt-5">
+                <h1 style="margin-bottom: -5px;">Contact me</h1>
+            </div>
+            <div class="row d-flex flex-grow-1 justify-content-center align-items-center">
+                <div class="col-md-5"><div class="contact-box">
+                    <form class="form-group" action="https://api.web3forms.com/submit" method="post" id="contactForm">
+                        <input type="hidden" name="access_key" value="6916dc56-475d-4272-b432-9c7058533860">
+                        <input type="hidden" name="redirect" value="https://masterdeveloperrahul.github.io/my-portfolio/success">
+                        <input type="hidden" name="from_name" value="My WebSite">
+                        <label for="name">Name<span class="required"><sup>*</sup></span></label>
+                        <input class="form-control" name="name" id="name" type="text" placeholder="Your name here" required autocomplete="off">
+                        <br>
+                        <label for="email">E-Mail<span class="required"><sup>*</sup></span></label>
+                        <input class="form-control" name="email" id="email" type="email" placeholder="Your email here" required autocomplete="off">
+                        <br>
+                        <label for="subject">Subject<span class="required"><sup>*</sup></span></label>
+                        <input class="form-control" name="subject" id="subject" type="text" placeholder="Your subject here" required autocomplete="off">
+                        <br>
+                        <label for="message">Message<span class="required"><sup>*</sup></span></label>
+                        <textarea  class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Write Your Message..." required autocomplete="off"></textarea>
+                        <br>
+                        <input class="btn btn-submit" style="width: 100%;" type="submit" value="Send Message" id="showAlertButton">
+                    </form>
+                </div></div>
+                
+            </div>
+            <div class="row text-center m-3 d-flex flex-grow-1 justify-content-center align-items-center">
+                
+
+            </div>
+           </section>
+           
+
+            
+                
+    
+        </div>
+    
+    
+        <footer>
+            <div class="footer d-flex flex-grow-1 justify-content-center align-items-center">
+                <span class="footer-text" >Made with ❤️ by Rahul</span>
+            </div>
+        </footer>
+    
+    
+    <!-- AOS animation -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        // Do you want to Send Message?
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+      Swal.fire({
+  title: "Do you want to Send Message?",
+  icon: "question",
+  showDenyButton: true,
+//   showCancelButton: true,
+  confirmButtonText: "Send",
+  denyButtonText: `Don't send`
+}).then((result) => {
+  if (result.isConfirmed) {
+    event.target.submit();
+  } else if (result.isDenied) {
+    Swal.fire("Massage not sent", "", "info");
+  }
+})
+});
+Swal.fire({
+  title: "Message Sent Successfuly!",
+  html: "<h5>Thank You</h5><br>Rahul Will respond you within 1 Hour",
+//   text:"Rahul Will Contact you within 1 Hour",
+  icon: "success"
+});
+
+
+    </script>
+</body>
+
+</html>

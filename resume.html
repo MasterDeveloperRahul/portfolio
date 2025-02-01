@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>My Resume</title>
+    <link rel="icon" type="image/x-icon" href="./images/fav_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6726e36abc.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?famili=Ubuntu&family=Oswald&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+
+
+</head>
+
+<body>
+    <div class="arrow-box"><i class="fa-solid fa-circle-arrow-up" id="scroll-to-top" title="Go Top"></i></div>
+    <header>
+        <nav data-aos="fade-down" data-aos-delay="200" data-aos-duration="1200" data-aos-once="true">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <img src="./images/nav-logo.png" alt="">
+            <ul>
+                <li><a href="./" class="icon"><i class="fas fa-home"></i>&nbsp;Home</a></li>
+                <li><a href="./about.html" class="icon"><i class="fas fa-user"></i>&nbsp;About</a></li>
+                <!-- <li><a href="#" class="icon"><i class="fas fa-code"></i>&nbsp;Projects</a></li> -->
+                <li><a href="./educations.html" class="icon"><i class="fa-solid fa-graduation-cap"></i></i>&nbsp;Educations</a></li>
+                <li><a href="#" class="icon"><i class="fas fa-file-lines"></i>&nbsp;Resume</a></li>
+                <li><a href="contact.html" class="icon"><i class="fa-regular fa-id-badge"></i>&nbsp;Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6  py-4 text-center" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="1500" >
+                    <img src="./images/resume-logo.svg" alt="" class="resume-logo">
+                </div>
+                <div class="col-md-3"></div>
+                <!-- <div class="col-md-6 p-md-5 py-4">
+                    <div class="m-lg-0 m-4" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1500">
+                        <span class="profile">Passionate code artisan crafting digital dreams into reality. Fluent in
+                            Java ,
+                            I transform ideas into seamless user experiences. Let's turn your vision into a
+                            pixel-perfect
+                            masterpiece!</span>
+                    </div>
+                </div> -->
+                
+            </div>
+
+
+        </section>
+        <section class="pdf">
+            <div class="customized-title text-center">
+                <h1  style="margin-bottom:30px;">My Resume</h1>
+                <a class="btn" id="resume-download-btn" href="./images/Resume_Rahul_Kumar_Sah.pdf" download><i class="fas fa-file-lines"></i>&nbsp;Download</a>
+            </div>
+            
+                
+                <div class="col mx-5 px-5">
+                    <div class="mx-5 p-5">
+                        <div class="shadow-box">
+                    <iframe  src="./images/Resume_Rahul_Kumar_Sah.pdf#view=FitH&toolbar=0"  frameborder="0"></iframe>
+                </div>
+            
+                <div class="text-center" style="margin-top: 20px;">
+                    <a class="btn" id="resume-download-btn" href="./images/Resume_Rahul_Kumar_Sah.pdf" target="_blank"><i class="fas fa-file-lines"></i>&nbsp;Download</a>
+                </div>
+
+
+        </section>
+
+    </div>
+
+
+    <footer>
+        <div class="footer d-flex flex-grow-1 justify-content-center align-items-center">
+            <span class="footer-text" >Made with ❤️ by Rahul</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
